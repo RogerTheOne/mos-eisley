@@ -1,0 +1,1 @@
+alert("Come and join the Mos Eisley Cantina \nWe're looking to hire new people after the recents events after Boba Fett returned.");

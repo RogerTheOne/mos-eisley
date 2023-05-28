@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header id="mos_header">
+        <h1>Welcome to Mos Eisley Cantina</h1>
+        <nav id="header_nav">
+            <a href="index.html">Main</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+            <a href="mos-eisley.html">About Mos Eisley</a>
+
+        </nav>
+
+    </header>
+    <main id="mos_main">
+        <section id="mos_location">
+            <h2>Location</h2>
+            <!-- 
+		Content in this page is dummy content from blindtextgenerator.com
+		Author: Nicola, Eric, Peewee
+		URL: https://www.blindtextgenerator.com/lorem-ipsum
+		Date accessed: 07 Mar 2022
+	 -->
+            <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. </p>
+        </section>   
+        <!-- 
+		    Image in this page is from newscientist.com
+		    Author: humnas
+		    URL: https://www.newscientist.com/lastword/mg25333691-300-the-universe-is-expanding-but-what-exactly-is-it-expanding-into/
+		    Date accessed: 08 Mar 2022
+	        -->
+        <img src="./img/unverse.jpeg" alt="universe" class="mos_universe">
+        <section id="mos_hours">    
+            <h2>Working Hours</h2>
+            <ul>
+                <li>Monday 7pm - 11am</li>
+                <li>Tuesday 7pm - 11am</li>
+                <li>Wesnday 7pm - 11am</li>
+                <li>Thursay 7pm - 11am</li>
+                <li>Friday 7pm - 11am</li>
+                <li>Saturday & Sunday 9pm - 10am</li>
+            </ul>
+        </section>
+        <form id="mos_form">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname">
+            <label for="planet">The Planet you from</label>
+            <!-- 
+		I learned how to create the contact form from w3schools.com
+		Author: N/A
+		URL: https://www.w3schools.com/howto/howto_css_contact_form.asp
+		Date accessed: 08 Mar 2022
+	        -->
+            <select id="planet" name="planet">
+                <option value="Earth">Earth</option>
+                <option value="Hoth">Hoth</option>
+                <option value="Yavin">Yavin</option>
+                <option value="Devaron">Devaron</option>
+                <option value="Bespin">Bespin</option>
+                <option value="Tatooine">Tatooine</option>
+                <option value="Others">others</option>
+            </select>
+            <label for="message">General messages or apply for job?</label>
+            <select id="message" name="message">
+                <option value="message">Send Messages</option>
+                <option value="Job">Apply for Job</option>
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+        
+    </main>
+    <footer id="mos_footer">
+        <p>Created by Roger Zhang</p>
+
+    </footer>
+    
+</body>
+</html>

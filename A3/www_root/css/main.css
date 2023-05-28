@@ -1,0 +1,214 @@
+#mos_header{
+    border-style: dashed;
+    border-width: 5px;
+    border-color: orange;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#mos_header > nav{
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: larger;
+}
+#header_nav > a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: lightyellow;
+}
+#mos_header > h1{
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+#header_nav > a:hover{
+    color: black;
+    background-color: orange;
+
+}
+#mos_main{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#the_cantina > h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#all_wine > h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 50px;
+}
+
+
+.featured_img1{
+    float: left;
+    width: 410px;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#mos_footer{
+    padding-left: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 70px;
+    padding-top: 70px;
+    background-color: lightsalmon;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+#menu1 > h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu_spa{
+    float: left;
+    height: 252px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#menu1 > p{
+    border-style: dotted;
+    border-color: darkorange;
+    border-width: 5px;
+    padding: 15px;
+}
+
+#mos_location h2{
+    font-family: fantasy;
+}
+#mos_location{
+    margin-right: 40%;
+    background-color: bisque;
+    
+    
+}
+#mos_location > p{
+    width: 40%;
+}
+#mos_hours h2{
+    font-family: fantasy;
+    margin-top: 50px;
+}
+#mos_hours{
+    background-color: lightgrey;
+    margin-right: 40%;
+}
+
+.mos_universe{
+    float: right;
+    height: 100px;
+}
+#mos_form{
+    width: 15%;
+}
+input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+#planet{
+    margin-bottom: 20px;
+}
+#message{
+    margin-bottom: 20px;
+}
+#mos_about > h2{
+    font-family: cursive;
+}
+#mos_us > h2{
+    font-family: cursive;
+    margin-top: 50px;
+}
+
+.mos_star{
+    float: left;
+    width: 250px;
+    padding-right: 20px;
+    margin-left: 20px;
+    
+}
+
+
+
+@media screen and (max-width: 640px){
+    #mos_header > h1{
+        text-align: center;
+        margin-left: 0ch;
+        
+    }
+    #header_nav{
+        text-align: center;
+    }
+    #header_nav > a{
+        color: darkorange;
+        padding: 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .mos_universe{
+        height: 150px;
+    }
+    #mos_location > p{
+        width: 100%;
+        padding-right: 20px;
+    }
+    #mos_form{
+        width: 50%;
+    }
+}
+
+    
+    
+@media screen and (min-width: 961px) {
+    .featured_img1{
+        float: left;
+        width: 410px;
+        border-style: solid;
+        border-color: burlywood;
+        border-width: 5px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 960px){
+    
+    #mos_header > h1{
+        text-align: center;
+        margin-left: 0ch;
+    }
+    #header_nav {
+        text-align: center;
+    }
+
+    #header_nav > a{
+        border-style: solid;
+        border-color: orange;
+        background-color: white;
+        padding: 5px;
+    }
+
+    #the_cantina > h2{
+        text-align: center;
+    }
+    #all_wine > h2{
+        text-align: center;
+    }
+    .featured_img1{
+        
+        width: 500px;
+        border-style: solid;
+        border-color: burlywood;
+        border-width: 5px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    #mos_form{
+        width: 50%;
+    }
+}
